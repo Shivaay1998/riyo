@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyo - Highway Simplyfy</title>
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="../../../../images/favicon.png" type="image/x-icon">
+    <!-- Main Link -->
+    <link rel="stylesheet" href="../../../../css/style.css">
+</head>
+
+<body>
+    <div class="container1">
+        <!-- <div class="black_div"></div> -->
+        <div class="box1">
+            <div class="left">
+                <img src="../../../../images/img1.svg" alt="">
+            </div>
+            <div class="right">
+                <a href="../privateLimited/page1.html" id="anchor"><img src="../../../../images/left-arrow.png" alt=""></a>
+                <img src="../../../../images/img2.svg" alt="">
+                <h2 style="padding-bottom: 10px;">Set Your Password.</h2>
+                <span id="wrong_pass"></span>
+                <form action="page3.html" style="margin-bottom: 230px;" id="link">
+                    <div class="input">
+                        <fieldset>
+                            <legend>Password</legend>
+                            <input type="password" name="" id="pass" placeholder="Enter Your Password" required>
+                        </fieldset>
+                        <span></span>
+                    </div>
+                    <div class="input">
+                        <fieldset>
+                            <legend>Confirm Password</legend>
+                            <input type="password" name="" id="confirm_pass" onkeyup="validate_password()" placeholder="Re-enter Your Password" required>
+                        </fieldset>
+                        <span></span>
+                    </div>
+                    <div class="btn">
+                        <!-- <button id="btn">PROCEED</button> -->
+                        <input class="SubmitButton" id="btn" type="submit" name="SUBMITBUTTON" value="PROCEED" />
+                    </div><br>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="../../../../js/pass.js"></script>
+</body>
+
+</html>
