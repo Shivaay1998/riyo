@@ -529,6 +529,10 @@ html::-webkit-scrollbar-thumb,
 
 .box2 {
     display: flex;
+    width: 90%;
+}
+.box3 {
+    width: 100%;
 }
 
 label.label input[type="file"] {
@@ -539,12 +543,12 @@ label.label input[type="file"] {
 .label {
     cursor: pointer;
     border-radius: 5px;
-    margin: 5px;
+    margin: 8px 3px;
     background: #2c2726;
     color: #fff;
     display: inline-block;
-    height: 114px;
-    width: 130px;
+    height: 94%;
+    width: 100%;
     border: 1px solid var(--main-color);
     text-align: center;
 }
